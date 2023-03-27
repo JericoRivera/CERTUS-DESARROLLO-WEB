@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <h1 style="font-size: 2em; color: tomato;">Mundo Tec</h1> <!--Titulo 1-->
+        <h2>Calidad garantizada</h2> <!--Titulo 2-->
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <p><a href="index.html">Volver atras</a></p> <!--Anchor (a)-->
+    </nav>
+
+    <!--Cuerpo principal-->
+    <main>
+
+        <!--Formulario de contacto-->
+        <section id="formContacto">
+
+            <h3>Escríbenos ahora</h3>
+
+            <!--Formulario-->
+            <form action="">
+
+                <div>
+                    <label for="txtName">Ingrese si nombre</label>
+                    <input type="text" name="txtName" id="txtName" maxlength="50" required>
+                </div>
+                <div>
+                    <label for="txtApellido">Ingrese si apellido</label>
+                    <input type="text" name="txtApellido" id="txtApellido" autocomplete="off" maxlength="54" required>
+                </div>
+                <div>
+                    <label for="txtEmail">Ingrese su correo</label>
+                    <input type="email" name="txtEmail" id="txtEmail" autocomplete="off" maxlength="128" required>
+                </div>
+                <div>
+                    <label for="numPhone">Ingrese su teléfono o celular</label>
+                    <input type="tel" name="numPhone" id="numPhone" maxlength="13" minlength="7" required>
+                </div>
+
+                <!--Selest / Selección de valor-->
+                <div>
+                    <label for="txtAsunto"Seleccione su asunto></label>
+                    <select name="txtAsunto" id="txtAsunto">
+                        <option value="">Seleccione una opción...</option>
+                        <option value="comprarMayor">Comprar productos por mayor</option>
+                        <option value="consultaDevolucion">Consulta para devolucón de prodcuto</option>
+                        <option value="consultaGeneral">Hacer conculta general</option>
+                    </select>
+                </div>
+
+                <!--TextArea / Cuerpo de texto-->
+
+                <div>
+                    <label for="bodyDetalle">Ingrese su mensaje</label>
+                    <textarea name="bodyDetalle" id="bodyDetalle" cols="30" rows="8"></textarea>
+                </div>
+
+                <!--Input checkbox-->
+                <div>
+                    <input type="checkbox" name="ids">
+                </div>
+
+
+            </form>
+
+        </section>
+
+        <!--Datos de contacto-->
+        <section id="ubicanos">
+
+        </section>
+    </main>
+</body>
+</html>
