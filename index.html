@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Agregar hoja de estilo -->
+    <link rel="stylesheet" href="estilo.css">
+
     <title>Catalogo Mundo Tec</title>
 </head>
 <body>
     <!-- Encabezado -->
     <header>
-        <h1 style="font-size: 2em; color:tomato">Mundo TEC</h1> <!-- Titulo 1 -->
+        <h1>Mundo TEC</h1> <!-- Titulo 1 -->
         <h2>Calidad Asegurada</h2> <!-- Titulo 2 -->
     </header>
-
-    <p>Ventas de producto catalogo Marzo 2023</p> <!-- Párrafo -->
-
-    <hr> <!-- horizontal rect -->
 
     <!-- Navigation -->
     <nav>
@@ -28,7 +28,8 @@
         </ul> 
     </nav>
 
-    <hr> <!-- horizontal rect -->
+    <!--Notificación-->
+    <p>Ventas de producto catalogo Marzo 2023</p> <!-- Párrafo -->
 
     <!-- Parte principal -->
     <main>
@@ -38,121 +39,163 @@
 
             <!-- Articulo 01 -->
             <article>
-                <h3>Sabsumg Galaxy S23 Ultra</h3>
+                <h3>Samsung Galaxy S23 Ultra</h3>
                 <picture>
-                    <img src="resourses/s23 ultra.webp" alt="smartphones">
+                    <img class="imgProduct" src="resourses/123.webp" alt="smartphones">
                 </picture>
-                <p>S/ 5 700.00 - 22%</p>
-                <p>S/ 4 444.00</p>
+                <p>
+                    <span class="PrecioOriginal">S/ 5 700.00</span> <span class="precioDescuento">-22%</span>
+                    <br><span class="precioFinal">S/ 4 444.00</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
 
             <!-- Articulo 02 -->
             <article>
                 <h3>Samsung Galaxy S23+</h3>
                 <picture>
-                    <img src="resourses/2065309068333_2.jpg" alt="smartphones">
+                    <img class="imgProduct" src="resourses/s23 plus-1-1-1.png" alt="smartphones">
                 </picture>
-                <p>S/ 4 200.00 - 2%</p>
-                <p>S/ 4 111.11</p>
+                <p>
+                    <span class="PrecioOriginal">S/ 4 200.00</span> <span class="precioDescuento">-2%</span>
+                    <br><span class="precioFinal">S/ 4 111.11</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
 
             <!-- Articulo 03 -->
             <article>
                 <h3>Motorola Moto Edge 30 Neo</h3>
                 <picture>
-                    <img src="resourses/47050479_1.jpg" alt="smartphones">
+                    <img class="imgProduct" src="resourses/47050479_1.jpg" alt="smartphones">
                 </picture>
-                <p>S/ 1 400.00 - 7%</p>
-                <p>S/ 1 299.90</p>
+                <p>
+                    <span class="PrecioOriginal">S/ 1 400.00</span> <span class="precioDescuento">-7%</span>
+                    <br><span class="precioFinal">S/ 1 299.90</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
 
             <!-- Articulo 04 -->
             <article>
                 <h3>Xiaomi Poco X5 5G</h3>
                 <picture>
-                    <img src="resourses/POCO-X5-5G.webp" alt="smartphones">
+                    <img class="imgProduct" src="resourses/POCO-X5-5G.webp" alt="smartphones">
                 </picture>
-                <p>S/ 1 470.00 - 32%</p>
-                <p>S/ 999.90</p>
+                <p>
+                    <span class="PrecioOriginal">S/ 1 470.00</span> <span class="precioDescuento">-32%</span>
+                    <br><span class="precioFinal">S/ 999.90</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
 
              <!-- Articulo 05 -->
             <article>
                 <h3>Iphone 14 Pro Max</h3>
                 <picture>
-                    <img src="resourses/Apple-iPhone-14-Pro-Max.jpg" alt="smartphones">
+                    <img class="imgProduct" src="resourses/14-pro-max.jpg" alt="smartphones">
                 </picture>
-                <p>S/ 6 055.56 - 12%</p>
-                <p>S/ 5 333.33</p>
+                <p>
+                    <span class="PrecioOriginal">S/ 6 055.56</span> <span class="precioDescuento">-12%</span>
+                    <br><span class="precioFinal">S/ 5 333.33</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
 
              <!-- Articulo 06 -->
             <article>
                 <h3>Xiaomi 12 Pro 5G</h3>
                 <picture>
-                    <img src="resourses/71vNgTH3MzL._AC_SS450_.jpg" alt="smartphones">
+                    <img class="imgProduct" src="resourses/71vNgTH3MzL._AC_SS450_.jpg" alt="smartphones">
                 </picture>
-                <p>S/ 3 499.90</p>
+                <p>
+                    <br><span class="precioFinal">S/ 3 499.90</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
 
              <!-- Articulo 07 -->
             <article>
                 <h3>Xiaomi 12T Pro</h3>
                 <picture>
-                    <img src="resourses/gsc_115293684_1071536_1.jpg" alt="smartphones">
+                    <img class="imgProduct" src="resourses/gsc_115293684_1071536_1.jpg" alt="smartphones">
                 </picture>
-                <p>S/ 2 699.90</p>
+                <p>
+                    <br><span class="precioFinal">S/ 2 699.90</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
 
              <!-- Articulo 08 -->
             <article>
-                <h3>Xiaomi Redmi K50 Gaming Edition</h3>
+                <h3>Xiaomi Redmi K50 GE</h3>
                 <picture>
-                    <img src="resourses/Xiaomi-Redmi-K50-Gaming-2.jpg" alt="smartphones">
+                    <img class="imgProduct" src="resourses/Xiaomi-Redmi-K50-Gaming-2.jpg" alt="smartphones">
                 </picture>
-                <p>S/ 2 150.00 - 12%</p>
-                <p>S/ 1 899.90</p>
+                <p>
+                    <span class="PrecioOriginal">S/ 2 150.00</span> <span class="precioDescuento">-12%</span>
+                    <br><span class="precioFinal">S/ 1 899.90</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
 
              <!-- Articulo 09 -->
             <article>
                 <h3>Xiaomi 12</h3>
                 <picture>
-                    <img src="resourses/xiaomi-12-xiaomitiendaperu.com_01.png" alt="smartphones">
+                    <img class="imgProduct" src="resourses/xiaomi-12-xiaomitiendaperu.com_01.png" alt="smartphones">
                 </picture>
-                <p>S/ 2 999.90</p>
+                <p>
+                    <br><span class="precioFinal">S/ 2 999.90</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
 
              <!-- Articulo 10 -->
             <article>
                 <h3>Xiaomi Poco F4 GT</h3>
                 <picture>
-                    <img src="resourses/poco-f4-gt-4_HI6NFNH.jpg" alt="smartphones">
+                    <img class="imgProduct" src="resourses/poco-f4-gt-4_HI6NFNH.jpg" alt="smartphones">
                 </picture>
-                <p>S/ 2 699.90 - 15%</p>
-                <p>S/ 2 299.90</p>
+                <p>
+                    <span class="PrecioOriginal">S/ 2 699.90</span> <span class="precioDescuento">-15%</span>
+                    <br><span class="precioFinal">S/ 2 299.90</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
 
              <!-- Articulo 11 -->
             <article>
                 <h3>Samsung Galaxy A33 5G</h3>
                 <picture>
-                    <img src="resourses/image-45cff5fc0c67479284d9a08c57068341.webp" alt="smartphones">
+                    <img class="imgProduct" src="resourses/image-45cff5fc0c67479284d9a08c57068341.webp" alt="smartphones">
                 </picture>
-                <p>S/ 1 099.90</p>
+                <p>
+                    <br><span class="precioFinal">S/ 1 099.90</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
 
              <!-- Articulo 12 -->
             <article>
                 <h3>Samsung Galaxy S22 Ultra</h3>
                 <picture>
-                    <img src="resourses/113895377_1.jpg" alt="smartphones">
+                    <img class="imgProduct" src="resourses/113895377_1.jpg" alt="smartphones">
                 </picture>
-                <p>S/ 4 699.90 - 15%</p>
-                <p>S/ 3 999.90</p>
+                <p>
+                    <span class="PrecioOriginal">S/ 4 699.90</span> <span class="precioDescuento">-15%</span>
+                    <br><span class="precioFinal">S/ 3 999.90</span>
+                </p>
+                <button>Agregar al carrito</button>
             </article>
         </section>
     </main>
+
+
+    <!--Pie de página-->
+    <footer>
+        Creado por Jerico Producciones - 2023
+    </footer>
 
 
 </body>
